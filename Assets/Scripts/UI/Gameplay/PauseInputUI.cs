@@ -46,7 +46,6 @@ namespace Game
             _pauseMMF.StopFeedbacks();
             _resumeMMF.PlayFeedbacks();
             _pageController.TransitionOut();
-            _settingsPageController.TransitionOut();
             PauseManager.UpdatePauseState(PauseStates.None);
         }
 

@@ -15,7 +15,7 @@ namespace Game
                 OnUpgradeInfoModeChanged?.Invoke(value);
             }
         }
-        private static AbilityUpgradeInfoMode _upgradeInfoMode;
+        private static AbilityUpgradeInfoMode _upgradeInfoMode = AbilityUpgradeInfoMode.OnlyChange;
 
         public static event Action<AbilityUpgradeInfoMode> OnUpgradeInfoModeChanged;
         public static event Action<AbilitySO> OnAbilitySelected;

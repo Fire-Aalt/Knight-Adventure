@@ -32,7 +32,7 @@
         "com.eflatun.scenereference": "git+https://github.com/starikcetin/Eflatun.SceneReference.git#3.2.1",
         "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
       },
-      "hash": "0000ac84399132f372e7cfc0153baaf1a8a0ed38"
+      "hash": "2bbf95d26d14138565726c22fa5da9a8f118d2e3"
     },
     "com.singularitygroup.hotreload": {
       "version": "file:com.singularitygroup.hotreload",

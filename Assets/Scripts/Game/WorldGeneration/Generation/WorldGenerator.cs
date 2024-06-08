@@ -49,18 +49,18 @@ namespace Game
 
         public void GenerateObjects(Chunk chunk, in ChunkData data)
         {
-            WallTilesGenerator.GenerateColliders();
-            ObjectsGenerator.GenerateObjects(chunk, data.objectsData);
+            //WallTilesGenerator.GenerateColliders();
+            //ObjectsGenerator.GenerateObjects(chunk, data.objectsData);
         }
 
         public void GenerateChunk(Vector2Int chunkCoord, in ChunkData data)
         {
-            WallTilesGenerator.GenerateTiles(chunkCoord, data.tilesData);
+            //WallTilesGenerator.GenerateTiles(chunkCoord, data.tilesData);
         }
 
         public void DestroyChunk(Vector2Int chunkCoord, in ChunkData data)
         {
-            WallTilesGenerator.DestroyTiles(chunkCoord, data.tilesData);
+            //WallTilesGenerator.DestroyTiles(chunkCoord, data.tilesData);
         }
     }
 }

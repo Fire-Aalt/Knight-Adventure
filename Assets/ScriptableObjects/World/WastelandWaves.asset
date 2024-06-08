@@ -130,31 +130,6 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    - enemyPrefab: {fileID: 2394132379136164136, guid: 2e292e2a6b7de5d4498fa78fb6af24fe, type: 3}
-      appearenceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0.0027780384
-          value: -0.008326149
-          inSlope: 2
-          outSlope: 2
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.9972229
-          value: 0.016666412
-          inSlope: -4.758585
-          outSlope: -4.758585
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.08238698
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
   - duration: 30
     enemiesInWaveAtStart: 15
     enemiesInWaveIncreaseAmount: 1
@@ -205,31 +180,6 @@ MonoBehaviour:
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-    - enemyPrefab: {fileID: 5193124654629368395, guid: 753cc1f01c870e54da87e8f52292098e, type: 3}
-      appearenceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0.28201607
-          outSlope: 0.28201607
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1.0083618
-          value: 0.28437424
-          inSlope: 0.28201607
-          outSlope: 0.28201607
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0.33333334
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -297,31 +247,6 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    - enemyPrefab: {fileID: 2394132379136164136, guid: 2e292e2a6b7de5d4498fa78fb6af24fe, type: 3}
-      appearenceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: -0.0028076172
-          value: 0.44340515
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1.0111098
-          value: 0.5916684
-          inSlope: 1.034503
-          outSlope: 1.034503
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.16021985
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
   - duration: 60
     enemiesInWaveAtStart: 25
     enemiesInWaveIncreaseAmount: 1
@@ -351,56 +276,6 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     enemiesInWaves:
-    - enemyPrefab: {fileID: 5193124654629368395, guid: 753cc1f01c870e54da87e8f52292098e, type: 3}
-      appearenceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: -0.011146545
-          value: 0.16764832
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.9977417
-          value: 0.3209381
-          inSlope: 0.83107966
-          outSlope: 0.83107966
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.24508217
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-    - enemyPrefab: {fileID: 2394132379136164136, guid: 2e292e2a6b7de5d4498fa78fb6af24fe, type: 3}
-      appearenceCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0.0027770996
-          value: 0.5666667
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0.27916718
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
     - enemyPrefab: {fileID: 7022299991394503379, guid: e068a6eee49c3ff4497061cd466b80d9, type: 3}
       appearenceCurve:
         serializedVersion: 2

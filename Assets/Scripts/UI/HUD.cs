@@ -6,12 +6,17 @@ using UnityEngine.UI;
 
 namespace Game
 {
-    public class HUD : MonoBehaviour
+    public class HUD : MonoBehaviour, IGameDataPersistence
     {
         [SerializeField] private Slider _healthBar;
         [SerializeField] private TextMeshProUGUI _timeText;
 
-        public float ScoreTime = 0;
+        public static float ScoreTime { get; private set; }
+
+        private void Start()
+        {
+            ScoreTime = 0f;
+        }
 
         private void Update()
         {
@@ -19,7 +24,7 @@ namespace Game
             _timeText.text = FormatTime(ScoreTime);
         }
 
-        private string FormatTime(float time)
+        public static string FormatTime(float time)
         {
             int seconds = Mathf.FloorToInt(time);
             int minutes = seconds / 60;
@@ -41,6 +46,15 @@ namespace Game
             _healthBar.value = currentHealth;
         }
 
+        public void LoadData(GameData data)
+        {
+
+        }
+
+        public void SaveData(GameData data)
+        {
+            data.score = Mathf.Max(data.score, ScoreTime);
+        }
     }
 }
 
